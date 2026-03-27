@@ -1,4 +1,7 @@
 *.mp4
 *.avi
 *.mkv
+*.yaml
+*.backup
+*.sh
 __pycache__/
