@@ -84,12 +84,24 @@ git log --all --merges --oneline
 
 ```bash
 git status
+```
+
+</td>
+<td>
+
+```
 On branch feature/indice
 You have unmerged paths.
   (fix conflicts and run "git commit")
 Unmerged paths:
         both modified:   indice.md
-## Se forzo y resolvio 1 conflicto critico de sincronizacion en el archivo indice.md
+```
+
+</td>
+</tr>
+</table>
+
+> Se forzó y resolvió 1 conflicto crítico de sincronización en el archivo indice.md
 
 ---
 
@@ -169,11 +181,22 @@ d5948e4 (origin/feature/branching-commands) fix: separar los comandos en archivo
 
 ```bash
 git log --graph --oneline --all -n 5
+```
+
+</td>
+<td>
+
+```
 * 1d912 (HEAD -> feature/indice, origin/feature/indice) fix: resolver colision de sincronizacion en indice
 |\
 | * 31818 docs: inyectar arbol
 | 2c987 feat: inyectar arbol grafico
 |/
 820bf docs: generar indices de modulos
-## Evidencia de colision en el entorno de desarrollo:
-### El conflicto detono al colisionar los nodos 31818 y 2c987. El algoritmo de auto-merge fallo, requiriendo depuracion manual. La transaccion final se liquido y sello bajo el hash de integracion 1d912.
+```
+
+</td>
+</tr>
+</table>
+
+> Evidencia de colisión en el entorno de desarrollo: el conflicto se dio al colisionar los nodos 31818 y 2c987. El algoritmo de auto-merge falló, requiriendo depuración manual. La transacción final se soluciono bajo el hash de integración 1d912.
